@@ -1,0 +1,44 @@
+ 
+* The expression used in swtich statement must have an integral or enumerated type,or be of which 
+the class has a single conversion function to an integral or enumerated type.
+
+* the contact-exprassion for a case must be the same data type as the variable in  the switch ,and
+it must be constant or a literal.
+  
+* When the variable being switched on is equal to case the statement following that case will
+ execute until a break statement is reached.
+
+* When a break statement is reashed the switch trminates and the flow of control jumps to the next
+line following the switch  statement.
+
+* Not every case needs to contain a break.if no break appears the flow of control will 
+fall throgh to subsequnt cases until a break is 
+
+* This method copies the actual value of an argument into the formal parameter inside the 
+function the address is used to access the actual argument used in the call this means that changes
+made to the parameter affect the argument.
+
+* This method copies the actual value of an argument into the formal parameter of the function 
+In this case changes made to the parameter inside the function have no effect on the argument.
+
+* A union a special data type available in C that allows to store different data types in the same
+memory loction. You can define a union with many members but only one member can contain a value
+at any given time. Unions provide an effcient way of using the same memory loction for multiple-
+purpose.
+
+ * To access any members of a union use using the member access operator (.) 
+The member access oprator is coded as a period between the union  variable name and the union 
+members that we wish to access. You would use the keyword union to define variable of union type.
+
+ * While programming  if you are aware of the size of an array , then it is esay and you can define 
+it as an array For example to store a name of any person, it can go up to a maximum of 100 
+charaters, so you can define something as follows-
+
+ * But now a late us considera situation where you have no idea about the legth of the text you 
+need to store for example you want to store a details description about a topic. Here we need to 
+define a pointer to character without defining how much memory is  required and later based on
+requirement, we can allocte memory as shown in the below example-
+ 
+ * Macros with agrument must be defined using the #define directive before they can be used .
+The argument list is enclosed in  parenthese and must immediately follows the macro name .spaces
+are not allowed between the macro name and open parenthesis For example-
